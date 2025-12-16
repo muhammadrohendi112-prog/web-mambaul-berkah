@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ponpes Mambaul Barkah</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <a href="#" class="logo">
+      <img src="logo.jpg" alt="Logo">
+      Ponpes Mambaul Berkah
+    </a>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#kegiatan">Kegiatan</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+      <li><a href="#pendaftaran" class="btn-daftar">Pendaftaran</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('navMenu');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pondok Pesantren Mambaul Barkah</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO / SAMPUL -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="logo.jpg" alt="Logo Ponpes" class="hero-logo">
+
+      <h1>Pondok Pesantren Mambaul Barkah</h1>
+      <h3>Berilmu • Berakhlak • Berkah</h3>
+
+      <p>
+        Lembaga pendidikan Islam yang berkomitmen mencetak generasi
+        beriman, berilmu, dan berakhlakul karimah melalui pendidikan
+        pesantren yang terpadu dan berkesinambungan.
+      </p>
+
+      <a href="#pendaftaran" class="hero-btn">Daftar Santri Baru</a>
+    </div>
+  </section>
+
+<!-- ================= PROFIL ================= -->
+<section id="profil" class="profil">
+  <div class="profil-container">
+    <div class="profil-text">
+      <h2>Profil Pondok Pesantren</h2>
+      <p>
+        Pondok Pesantren Mambaul Berkah merupakan lembaga pendidikan
+        Islam yang berfokus pada pembinaan akhlak, pendalaman ilmu
+        agama, serta pengembangan karakter santri.
+      </p>
+      <p>
+        Dengan lingkungan yang religius, aman, dan nyaman, Ponpes
+        Mambaul Berkah berupaya mencetak generasi yang siap menghadapi
+        tantangan zaman tanpa meninggalkan nilai-nilai keislaman.
+      </p>
+    </div>
+
+    <div class="profil-visi">
+      <h3>Visi</h3>
+      <p>
+        Terwujudnya generasi Islam yang berilmu, berakhlak mulia,
+        mandiri, dan bermanfaat bagi umat.
+      </p>
+
+      <h3>Misi</h3>
+      <ul>
+        <li>Menyelenggarakan pendidikan Islam yang berkualitas</li>
+        <li>Membina akhlakul karimah dalam kehidupan sehari-hari</li>
+        <li>Mengembangkan potensi santri secara optimal</li>
+        <li>Menanamkan nilai keislaman dan kemandirian</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- ================= KEGIATAN ================= -->
+<section id="kegiatan" class="kegiatan">
+  <div class="kegiatan-header">
+    <h2>Kegiatan Pondok</h2>
+    <p>
+      Berbagai kegiatan unggulan yang mendukung pembinaan ilmu,
+      akhlak, dan karakter santri.
+    </p>
+  </div>
+
+  <div class="kegiatan-grid">
+    <div class="kegiatan-card">
+      <img src="menagji.png" alt="Ngaji Kitab">
+      <h3>Ngaji Kitab Kuning</h3>
+      <p>
+        Kegiatan rutin pendalaman kitab kuning sebagai pondasi
+        keilmuan santri dalam memahami ajaran Islam.
+      </p>
+    </div>
+
+    <div class="kegiatan-card">
+      <img src="solat.png" alt="Sholat Berjamaah">
+      <h3>Sholat Berjamaah</h3>
+      <p>
+        Pembiasaan sholat berjamaah untuk menanamkan kedisiplinan
+        dan kebersamaan antar santri.
+      </p>
+    </div>
+
+    <div class="kegiatan-card">
+      <img src="kajian.png" alt="Kajian Keislaman">
+      <h3>Kajian Keislaman</h3>
+      <p>
+        Kajian rutin untuk memperluas wawasan keislaman dan
+        memperkuat pemahaman akidah.
+      </p>
+    </div>
+
+    <div class="kegiatan-card">
+      <img src="muhadoroh.png" alt="Muhadhoroh">
+      <h3>Muhadhoroh</h3>
+      <p>
+        Latihan pidato dan dakwah untuk melatih mental,
+        kepercayaan diri, dan kemampuan berbicara santri.
+      </p>
+    </div>
+
+    <div class="kegiatan-card">
+      <img src="kerjabakti.png" alt="Kerja Bakti">
+      <h3>Kerja Bakti</h3>
+      <p>
+        Kegiatan kebersihan lingkungan pondok untuk menanamkan
+        rasa tanggung jawab dan kepedulian.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- ================= GALERI ================= -->
+<section id="galeri" class="galeri">
+  <div class="galeri-header">
+    <h2>Galeri Kegiatan</h2>
+    <p>Dokumentasi kegiatan santri dan aktivitas Pondok Pesantren</p>
+  </div>
+
+  <div class="galeri-grid">
+    <div class="galeri-item">
+      <img src="menagji.png" alt="Kegiatan Santri">
+    </div>
+    <div class="galeri-item">
+      <img src="kajian.png" alt="Ngaji Kitab">
+    </div>
+    <div class="galeri-item">
+      <img src="muhadoroh.png" alt="Sholat Berjamaah">
+    </div>
+    <div class="galeri-item">
+      <img src="solat.png" alt="Kajian Keislaman">
+    </div>
+    <div class="galeri-item">
+      <img src="kerjabakti.png" alt="Kerja Bakti">
+    </div>
+  </div>
+</section>
+<!-- ================= KONTAK ================= -->
+<section id="kontak" class="kontak">
+  <div class="kontak-header">
+    <h2>Kontak Kami</h2>
+    <p>Silakan hubungi kami untuk informasi dan pendaftaran</p>
+  </div>
+
+  <div class="kontak-container">
+    <!-- INFO KONTAK -->
+    <div class="kontak-info">
+      <h3>Pondok Pesantren Mambaul Berkah</h3>
+      <p>
+        📍 Jl. Sindang Subur, Sampay Rt01/Rw14 Des.Tugu Selatan<br>
+        Kec. Cisarua, Kab. Bogor
+      </p>
+      <p>
+        📞 WhatsApp: <strong>0895365952208</strong><br>
+        📧 Email: <strong>ponpesmambaulbarkah@email.com</strong>
+      </p>
+
+      <div class="sosial">
+        <a href="https://wa.me/62895365932208" target="_blank" class="wa">
+          <img src="whatsapp_2111728.png" alt="WhatsApp">
+        </a>
+        <a href="https://rndddd_i/" target="_blank" class="ig">
+          <img src="instagram_174855.png" alt="Instagram">
+        </a>
+        <a href="https://tiktok.com/" target="_blank" class="tt">
+          <img src="social-media_15713399.png"TikTok">
+        </a>
+      </div>
+    </div>
+
+    <!-- MAPS -->
+    <div class="kontak-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126799.43741208721!2d106.87129278906247!3d-6.710826971964952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b66160092f3b%3A0xb9f86c0322a189e4!2sYAYASAN%20MAMBAUL%20BARKAH%20AL-MUHSINI!5e0!3m2!1sen!2sid!4v1765873560761!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PENDAFTARAN ================= -->
+<section id="pendaftaran" class="pendaftaran">
+  <div class="container">
+
+    <div class="pendaftaran-header">
+      <h2>Pendaftaran Santri Baru</h2>
+      <p>Silakan lengkapi formulir pendaftaran dengan data yang benar</p>
+    </div>
+
+<form class="form-daftar" id="formDaftar">
+  <div class="form-group">
+    <label>Nama Lengkap</label>
+    <input type="text" id="nama" required>
+  </div>
+
+  <div class="form-group">
+    <label>NIK</label>
+    <input type="number" id="nik" required>
+  </div>
+
+  <div class="form-group">
+    <label>Jenis Kelamin</label>
+    <select id="jk" required>
+      <option value="">-- Pilih --</option>
+      <option>Laki-laki</option>
+      <option>Perempuan</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Tempat, Tanggal Lahir</label>
+    <input type="text" id="ttl" required>
+  </div>
+
+  <div class="form-group">
+    <label>Alamat Lengkap</label>
+    <textarea id="alamat" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <label>Nomor WhatsApp</label>
+    <input type="tel" id="wa" required>
+  </div>
+
+  <div class="form-group">
+    <label>Upload Foto Santri</label>
+    <input type="file" id="foto" accept="image/*" required>
+    <small style="color:#777">📌 Foto akan dikirim manual setelah chat terbuka</small>
+  </div>
+
+  <button type="submit" class="btn-kirim">Kirim Pendaftaran</button>
+</form>
+<script>
+  document.getElementById("formDaftar").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const nama = document.getElementById("nama").value;
+    const nik = document.getElementById("nik").value;
+    const jk = document.getElementById("jk").value;
+    const ttl = document.getElementById("ttl").value;
+    const alamat = document.getElementById("alamat").value;
+    const wa = document.getElementById("wa").value;
+
+    const noAdmin = "62895365952208"; // GANTI nomor WA panitia
+
+    const pesan =
+`Assalamu’alaikum, saya ingin mendaftar santri baru.
+
+📌 *DATA SANTRI BARU*
+Nama : ${nama}
+NIK : ${nik}
+Jenis Kelamin : ${jk}
+TTL : ${ttl}
+Alamat : ${alamat}
+No. WA : ${wa}
+
+📷 Foto santri akan saya kirim setelah ini.
+Terima kasih.`;
+
+    const url = `https://wa.me/${noAdmin}?text=${encodeURIComponent(pesan)}`;
+    window.open(url, "_blank");
+  });
+</script>
+
+    <!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+
+      <div>
+        <h3>Ponpes Mambaul Berkah</h3>
+        <p>
+          Pondok Pesantren Mambaul Berkah adalah lembaga pendidikan Islam
+          yang berfokus pada pembinaan akhlak, ilmu agama, dan Al-Qur’an.
+        </p>
+      </div>
+
+      <div>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#kegiatan">Kegiatan</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#pendaftaran">Pendaftaran</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Kontak</h4>
+        <p>
+          Kp. Sindang Subur, Sampay<br>
+          Cisarua – Bogor<br><br>
+          📞 0895365952208
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Ponpes Mambaul Berkah • All Rights Reserved
+  </div>
+</footer>
+
+
+</body>
+</html>
